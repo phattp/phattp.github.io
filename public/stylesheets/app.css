@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    font-size: 100%;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background: url('https://images.unsplash.com/photo-1500993855538-c6a99f437aa7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=72a0229d410f0e7c7701ebfc53b68a65&auto=format&fit=crop&w=1650&q=80');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: auto;
+    min-height: 100% !important;
+    display: flex;
+    overflow: auto;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+section {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: auto;
+    min-height: 100% !important;
+    display: flex;
+    overflow: auto;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+h6 {
+    color: black;
+}
+
+.card:hover, .card:active, .card:focus {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+.div-text-header {
+    margin-bottom: 30px;
+}
+
+#div-section {
+    margin: 50px auto;
+}
+
+#about {
+   background-color: white; 
+}
+
+#projects {
+    background-color: #eeeeee;
+}
+
+#contact {
+    background-color: #393e46;
+}
+
+#i-bgcolor {
+    color: #f57170;
+}
+
+#i-bgcolor-ct {
+    color: #eeeeee;
+}
+
+#img-self {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}

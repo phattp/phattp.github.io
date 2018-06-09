@@ -1,0 +1,20 @@
+{
+  "name": "phattp",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phatthara Pisootrapee",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "aos": "^2.3.0",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "method-override": "^2.3.10",
+    "smoothscroll": "^0.4.0"
+  }
+}
